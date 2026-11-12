@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Game data / progress
+.kali_game/
+.kali_game_v04/
+.kali_gae/
+*.db
+*.sqlite
+*.sqlite3
+progress.json
+
+# Docker
+.dockerignore
+Dockerfile.dev
+
+# OS
+Thumbs.db
+.env
+.env.local
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
