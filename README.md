@@ -1,4 +1,4 @@
-# 🛡️ KALI_GAME_v04
+# 🛡️ KALI_GAME_v01
 
 > 🇵🇱 Gra terminalowa po polsku do nauki Kali Linux i cyberbezpieczeństwa  
 > 🇬🇧 Terminal game in Polish to learn Kali Linux and cybersecurity  
