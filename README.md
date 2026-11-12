@@ -19,7 +19,7 @@
 `Kali_GAME` to lokalna, terminalowa gra edukacyjna w dwóch panelach `tmux`. Gracz rozwiązuje **82 misje na 13 poziomach** wewnątrz izolowanych kontenerów Docker (Debian, nie-root, bez sieci hosta). Nauka przez praktykę: `find`, `grep`, `nmap`, `tshark`, `tcpdump`, `whatweb`, `curl`, `file`, `sha256sum`, `strings`, `xxd`, `exiftool`, `jq`, `yara` i wiele innych.
 
 **EN:**  
-`Kali_GAME_v04` is a local terminal educational game in two `tmux` panels. Player solves **82 missions on 13 levels** inside isolated Docker containers (Debian, non-root, no host network). Learn by doing: `find`, `grep`, `nmap`, `tshark`, `tcpdump`, `whatweb`, `curl`, `file`, `sha256sum`, `strings`, `xxd`, `exiftool`, `jq`, `yara` and more.
+`Kali_GAME` is a local terminal educational game in two `tmux` panels. Player solves **82 missions on 13 levels** inside isolated Docker containers (Debian, non-root, no host network). Learn by doing: `find`, `grep`, `nmap`, `tshark`, `tcpdump`, `whatweb`, `curl`, `file`, `sha256sum`, `strings`, `xxd`, `exiftool`, `jq`, `yara` and more.
 
 ---
 
@@ -34,7 +34,7 @@ _/    _/    _/_/_/  _/  _/    _/_/_/  _/    _/  _/      _/  _/_/_/_/
                                                                            
                       _/_/_/_/_/                                     
                                                       
-  🛡️  Kali_GAME_v04 — Learn Kali Linux by playing  🛡️
+     🛡️  Kali_GAME — Learn Kali Linux by playing  🛡️
 ```
 
 **PL:** Gra otwiera sesję `tmux`. Lewy panel: menu misji. Prawy panel: lab w kontenerze.  
@@ -101,7 +101,7 @@ KALI_GAME_DOCKER_SUDO=1 python3 kali_game.py
 
 ---
 
-## 🤝 DOŁĄCZ DO SPOŁeczności / COMMUNITY CALL
+## 🤝 DOŁĄCZ DO SPOŁECZNOŚCI / COMMUNITY CALL
 
 **PL:**  
 Chcesz dodać własną grę, poziom lub misję? Ten projekt jest otwarty na wkład społeczności!
@@ -163,27 +163,29 @@ tests/            → testy jednostkowe
 - Wszystkie misje działają w kontenerze bez sieci hosta  
 - Kontener działa jako nie-root, tylko tymczasowa przestrzeń  
 - Żadne dane z hosta nie są montowane do labu  
-- Mentor (OpenRouter) nie zapisuje kluczy ani odpowiedzi na dysku  
+- Mentor (OpenRouter) nie zapisuje kluczy ani odpowiedzi na dysku
+- Chcesz zmienić dostawce API oraz model (plik ./mentor.py "MODEL", "ENDPOINT")  
 - Tryb `--test-mode` nie zmienia zapisu postępu  
 
 - All missions run in a container without host network  
 - Container runs as non-root, temporary workspace only  
 - No host data is mounted into the lab  
-- Mentor (OpenRouter) does not save keys or answers to disk  
+- Mentor (OpenRouter) does not save keys or answers to disk
+- Want to change API distribution (file ./mentor.py "MODEL", "ENDPOINT")  
 - `--test-mode` does not modify progress  
 
 ---
 
 ## 🗺️ ROADMAP
 
-- [ ] v0.5 — nowy poziom sieci web (SQLi, XSS syntetyczne)  
-- [ ] v0.6 — tryb rywalizacji (leaderboard lokalny)  
-- [ ] v0.7 — wsparcie dla własnych obrazów labu od społeczności  
+- [ ] v0.2 — nowy poziom sieci web (SQLi, XSS syntetyczne)  
+- [ ] v0.3 — tryb rywalizacji (leaderboard lokalny)  
+- [ ] v0.4 — wsparcie dla własnych obrazów labu od społeczności  
 - [ ] v1.0 — stabilna wersja z 100+ misjami  
 
-- [ ] v0.5 — new web level (synthetic SQLi, XSS)  
-- [ ] v0.6 — competition mode (local leaderboard)  
-- [ ] v0.7 — support for community lab images  
+- [ ] v0.2 — new web level (synthetic SQLi, XSS)  
+- [ ] v0.3 — competition mode (local leaderboard)  
+- [ ] v0.4 — support for community lab images  
 - [ ] v1.0 — stable version with 100+ missions  
 
 ---
@@ -204,7 +206,7 @@ GitHub: [github.com/odo-nvidia](https://github.com/odo-nvidia)
 
 ## ⭐ WSPIERJ PROJEKT / SUPPORT THE PROJECT
 
-Jeśli gra się podoba — daj gwiazdę ⭐, zshrubuj repo i dodaj własny poziom!  
+Jeśli gra się podoba — daj gwiazdkę ⭐, fork repo i dodaj własny poziom!  
 If you like the game — star ⭐, fork the repo and add your own level!
 
 ```text
